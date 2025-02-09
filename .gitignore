@@ -2,13 +2,15 @@
 
 /vendor/*
 /config/app.php
-
+/node_modules/   # 忽略 Node 的模块目录
+/js/node_modules/  # 忽略 js 目录下的 Node 模块
 /tmp/cache/models/*
 !/tmp/cache/models/empty
 /tmp/cache/persistent/*
 !/tmp/cache/persistent/empty
 /tmp/cache/views/*
 !/tmp/cache/views/empty
+
 /tmp/sessions/*
 !/tmp/sessions/empty
 /tmp/tests/*
